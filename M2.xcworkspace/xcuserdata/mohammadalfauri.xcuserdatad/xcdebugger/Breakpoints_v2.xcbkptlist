@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C5E1EA0-5A94-4D41-85A3-FA6C571E6317"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "M2/SideBar/SideBarTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SideBarTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - 36c240156590ce9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.imagev.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - 79b730970f152e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.imagev.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - 1273480789e01376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.imagev.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - eb66f912f00390b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.imagev.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - dd1d6e4ec9518814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; M2.SideBarTableViewCell"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "C93CA7C1-8BD4-41AA-A508-098EF4A2FAC2 - c54b71f800326634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;M2.SideBarTableViewCell&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "M2/SideBar/SideBarTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SideBarTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - e648c28f3e6ce861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.lbl.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - 1bea3c756ea1a049"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.lbl.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - 959b9e3207e9ba6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.lbl.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - 9676dbc052290917"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.lbl.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - dd1d6e4ec9518837"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; M2.SideBarTableViewCell"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "E0925EFE-58CF-4EF9-A866-A8CC32A4C0D8 - c54b71f800326617"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "M2.SideBarTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;M2.SideBarTableViewCell&gt;"
+                  moduleName = "M2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadalfauri/Desktop/IOS/M2/M2/SideBar/SideBarTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9489614B-E4A9-4DA5-BC8A-08F66162A4E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "M2/SideBar/SideBarTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SideBarTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

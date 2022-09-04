@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="leL-Mp-8nx" customClass="SideBarTableViewCell" customModule="M2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="leL-Mp-8nx" id="X7S-vt-1tp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neq-P6-MMm">
+                        <rect key="frame" x="60" y="8" width="240" height="44"/>
+                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MTH-H9-0mo">
+                        <rect key="frame" x="20" y="20" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="MTH-H9-0mo" secondAttribute="height" multiplier="1:1" id="5JD-36-R8q"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.098039215686274508" green="0.1764705882352941" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="MTH-H9-0mo" firstAttribute="top" secondItem="X7S-vt-1tp" secondAttribute="top" constant="20" id="CZk-Jl-Bku"/>
+                    <constraint firstItem="MTH-H9-0mo" firstAttribute="leading" secondItem="X7S-vt-1tp" secondAttribute="leading" constant="20" id="gJ8-VZ-PAR"/>
+                    <constraint firstItem="neq-P6-MMm" firstAttribute="top" secondItem="X7S-vt-1tp" secondAttribute="top" constant="8" id="hia-Lq-cWc"/>
+                    <constraint firstAttribute="trailing" secondItem="neq-P6-MMm" secondAttribute="trailing" constant="20" id="jfd-U7-vjJ"/>
+                    <constraint firstAttribute="bottom" secondItem="neq-P6-MMm" secondAttribute="bottom" constant="8" id="kjz-LT-iwl"/>
+                    <constraint firstAttribute="bottom" secondItem="MTH-H9-0mo" secondAttribute="bottom" constant="20" id="sLv-Wf-5kg"/>
+                    <constraint firstItem="neq-P6-MMm" firstAttribute="leading" secondItem="MTH-H9-0mo" secondAttribute="trailing" constant="20" id="tmv-Rj-N9D"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imagev" destination="MTH-H9-0mo" id="xl6-k1-MfH"/>
+                <outlet property="lbl" destination="neq-P6-MMm" id="gua-wq-zyp"/>
+            </connections>
+            <point key="canvasLocation" x="-134.78260869565219" y="162.72321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
