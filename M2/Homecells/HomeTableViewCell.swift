@@ -7,18 +7,24 @@
 
 import UIKit
 
+typealias SeeAllClosure = ((_ index: Int?) -> Void)
+typealias DidSelectClosure = ((_ tableIndex: Int?,_ collectionIndex: Int?) -> Void)
+
+
 class HomeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var placesName: UILabel!
     @IBOutlet weak var collectionViewChalet: UICollectionView!
     
+    var index: Int?
+    var onClickSeeAllClosure: SeeAllClosure?
+    var didSelectClosure: DidSelectClosure?
     var chalets: Product? {
         
         didSet {
             placesName.text =  chalets?.categoryName
             collectionViewChalet.reloadData()
         }
-        
     }
     
     override func awakeFromNib() {
@@ -35,6 +41,7 @@ class HomeTableViewCell: UITableViewCell {
     }
 
     @IBAction func onClickSeeAll(_ sender: Any) {
+        onClickSeeAllClosure?(index)
     }
 }
 extension HomeTableViewCell: UICollectionViewDelegate,UICollectionViewDataSource {
@@ -50,6 +57,8 @@ extension HomeTableViewCell: UICollectionViewDelegate,UICollectionViewDataSource
     return cell
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        didSelectClosure?(index,indexPath.row)
+    }
     
 }

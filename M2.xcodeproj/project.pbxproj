@@ -22,8 +22,6 @@
 		054B452828C46658007BBA60 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B452728C46658007BBA60 /* HomeTableViewCell.swift */; };
 		054B452C28C46853007BBA60 /* ChaletJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 054B452B28C46853007BBA60 /* ChaletJSON.json */; };
 		054B452F28C468F4007BBA60 /* ChaletModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B452E28C468F4007BBA60 /* ChaletModels.swift */; };
-		054B453128C4778B007BBA60 /* BuckUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B453028C4778B007BBA60 /* BuckUpViewController.swift */; };
-		054B453328C4E903007BBA60 /* SecondBuckUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B453228C4E903007BBA60 /* SecondBuckUpViewController.swift */; };
 		054B453528C5134E007BBA60 /* ChaletsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B453428C5134E007BBA60 /* ChaletsCollectionViewCell.swift */; };
 		0567A9C928B93AA2004715BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567A9C828B93AA2004715BD /* HomeViewController.swift */; };
 		0567A9CB28B93ADB004715BD /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567A9CA28B93ADB004715BD /* HomeCollectionViewCell.swift */; };
@@ -33,6 +31,9 @@
 		0567A9D928BB014F004715BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0567A9D828BB014F004715BD /* GoogleService-Info.plist */; };
 		0567A9DB28BC12F4004715BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567A9DA28BC12F4004715BD /* Constants.swift */; };
 		0567A9E328BCF116004715BD /* pexels-vlada-karpovich-8045191.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0567A9E228BCF116004715BD /* pexels-vlada-karpovich-8045191.mp4 */; };
+		0572FC8B28C6F7290026AB4B /* ChaletListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FC8A28C6F7290026AB4B /* ChaletListingViewController.swift */; };
+		0572FC8D28C701130026AB4B /* chaletlistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572FC8C28C701130026AB4B /* chaletlistTableViewCell.swift */; };
+		0574B38B28C7CF4600C3A970 /* ChaletdetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0574B38A28C7CF4600C3A970 /* ChaletdetailsViewController.swift */; };
 		87FF0201C8BE90C20529A7EB /* Pods_M2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE89297063B984BB10D53BBC /* Pods_M2.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,10 +53,8 @@
 		05223D1228BE840B008CD1E8 /* SideBarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideBarTableViewCell.xib; sourceTree = "<group>"; };
 		05223D1528BEDEBF008CD1E8 /* ProfilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilTableViewCell.swift; sourceTree = "<group>"; };
 		054B452728C46658007BBA60 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		054B452B28C46853007BBA60 /* ChaletJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChaletJSON.json; sourceTree = SOURCE_ROOT; };
+		054B452B28C46853007BBA60 /* ChaletJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ChaletJSON.json; path = M2/ChaletJSON.json; sourceTree = SOURCE_ROOT; };
 		054B452E28C468F4007BBA60 /* ChaletModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaletModels.swift; sourceTree = "<group>"; };
-		054B453028C4778B007BBA60 /* BuckUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckUpViewController.swift; sourceTree = "<group>"; };
-		054B453228C4E903007BBA60 /* SecondBuckUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondBuckUpViewController.swift; sourceTree = "<group>"; };
 		054B453428C5134E007BBA60 /* ChaletsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaletsCollectionViewCell.swift; sourceTree = "<group>"; };
 		0567A9C828B93AA2004715BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0567A9CA28B93ADB004715BD /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -65,6 +64,9 @@
 		0567A9D828BB014F004715BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0567A9DA28BC12F4004715BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0567A9E228BCF116004715BD /* pexels-vlada-karpovich-8045191.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pexels-vlada-karpovich-8045191.mp4"; sourceTree = "<group>"; };
+		0572FC8A28C6F7290026AB4B /* ChaletListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaletListingViewController.swift; sourceTree = "<group>"; };
+		0572FC8C28C701130026AB4B /* chaletlistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletlistTableViewCell.swift; sourceTree = "<group>"; };
+		0574B38A28C7CF4600C3A970 /* ChaletdetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaletdetailsViewController.swift; sourceTree = "<group>"; };
 		1842C32CD505C9D9E5701F34 /* Pods-M2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2.debug.xcconfig"; path = "Target Support Files/Pods-M2/Pods-M2.debug.xcconfig"; sourceTree = "<group>"; };
 		73DB4C57D29B322619EA9447 /* Pods-M2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2.release.xcconfig"; path = "Target Support Files/Pods-M2/Pods-M2.release.xcconfig"; sourceTree = "<group>"; };
 		CE89297063B984BB10D53BBC /* Pods_M2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,23 +106,21 @@
 			isa = PBXGroup;
 			children = (
 				054B452D28C468CF007BBA60 /* Models */,
-				054B452628C465FE007BBA60 /* Homecell */,
+				054B452628C465FE007BBA60 /* Homecells */,
+				0572FC8E28C701420026AB4B /* ListingChalet */,
+				056054FA28C8262500688481 /* ChaletDetails */,
 				05223D1428BE9150008CD1E8 /* SideBar */,
 				0567A9D228BAAF88004715BD /* Viewcontroller */,
 				0567A9DD28BCEBF6004715BD /* media */,
 				051A134F28B917EF00C2571B /* AppDelegate.swift */,
 				051A135128B917EF00C2571B /* SceneDelegate.swift */,
 				051A135528B917EF00C2571B /* Main.storyboard */,
-				05223D1528BEDEBF008CD1E8 /* ProfilTableViewCell.swift */,
 				0567A9C828B93AA2004715BD /* HomeViewController.swift */,
-				0567A9CA28B93ADB004715BD /* HomeCollectionViewCell.swift */,
 				051A135828B917F100C2571B /* Assets.xcassets */,
-				054B452B28C46853007BBA60 /* ChaletJSON.json */,
 				051A135A28B917F100C2571B /* LaunchScreen.storyboard */,
 				0567A9D828BB014F004715BD /* GoogleService-Info.plist */,
 				051A135D28B917F100C2571B /* Info.plist */,
-				054B453028C4778B007BBA60 /* BuckUpViewController.swift */,
-				054B453228C4E903007BBA60 /* SecondBuckUpViewController.swift */,
+				054B452B28C46853007BBA60 /* ChaletJSON.json */,
 			);
 			path = M2;
 			sourceTree = "<group>";
@@ -133,17 +133,19 @@
 				05223D0C28BDC879008CD1E8 /* OverViewViewController.swift */,
 				05223D0A28BDC85E008CD1E8 /* ShortCutsViewController.swift */,
 				05223D0828BDC833008CD1E8 /* DashBoardViewController.swift */,
+				0572FC8928C68F3C0026AB4B /* Profile */,
 			);
 			path = SideBar;
 			sourceTree = "<group>";
 		};
-		054B452628C465FE007BBA60 /* Homecell */ = {
+		054B452628C465FE007BBA60 /* Homecells */ = {
 			isa = PBXGroup;
 			children = (
+				0567A9CA28B93ADB004715BD /* HomeCollectionViewCell.swift */,
 				054B452728C46658007BBA60 /* HomeTableViewCell.swift */,
 				054B453428C5134E007BBA60 /* ChaletsCollectionViewCell.swift */,
 			);
-			path = Homecell;
+			path = Homecells;
 			sourceTree = "<group>";
 		};
 		054B452D28C468CF007BBA60 /* Models */ = {
@@ -152,6 +154,14 @@
 				054B452E28C468F4007BBA60 /* ChaletModels.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		056054FA28C8262500688481 /* ChaletDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0574B38A28C7CF4600C3A970 /* ChaletdetailsViewController.swift */,
+			);
+			path = ChaletDetails;
 			sourceTree = "<group>";
 		};
 		0567A9D228BAAF88004715BD /* Viewcontroller */ = {
@@ -180,6 +190,23 @@
 				0567A9E228BCF116004715BD /* pexels-vlada-karpovich-8045191.mp4 */,
 			);
 			path = media;
+			sourceTree = "<group>";
+		};
+		0572FC8928C68F3C0026AB4B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				05223D1528BEDEBF008CD1E8 /* ProfilTableViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0572FC8E28C701420026AB4B /* ListingChalet */ = {
+			isa = PBXGroup;
+			children = (
+				0572FC8C28C701130026AB4B /* chaletlistTableViewCell.swift */,
+				0572FC8A28C6F7290026AB4B /* ChaletListingViewController.swift */,
+			);
+			path = ListingChalet;
 			sourceTree = "<group>";
 		};
 		266422BA80BAA9509F2F6431 /* Frameworks */ = {
@@ -319,15 +346,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0567A9CB28B93ADB004715BD /* HomeCollectionViewCell.swift in Sources */,
-				054B453128C4778B007BBA60 /* BuckUpViewController.swift in Sources */,
 				05223D1628BEDEBF008CD1E8 /* ProfilTableViewCell.swift in Sources */,
 				054B452F28C468F4007BBA60 /* ChaletModels.swift in Sources */,
-				054B453328C4E903007BBA60 /* SecondBuckUpViewController.swift in Sources */,
 				05223D0D28BDC879008CD1E8 /* OverViewViewController.swift in Sources */,
 				054B453528C5134E007BBA60 /* ChaletsCollectionViewCell.swift in Sources */,
 				051A135428B917EF00C2571B /* ViewController.swift in Sources */,
+				0572FC8D28C701130026AB4B /* chaletlistTableViewCell.swift in Sources */,
 				0567A9D428BAB877004715BD /* SignUpViewController.swift in Sources */,
+				0574B38B28C7CF4600C3A970 /* ChaletdetailsViewController.swift in Sources */,
 				051A135028B917EF00C2571B /* AppDelegate.swift in Sources */,
+				0572FC8B28C6F7290026AB4B /* ChaletListingViewController.swift in Sources */,
 				054B452828C46658007BBA60 /* HomeTableViewCell.swift in Sources */,
 				0567A9DB28BC12F4004715BD /* Constants.swift in Sources */,
 				0567A9D128BAAF39004715BD /* LoginViewController.swift in Sources */,

@@ -28,7 +28,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var topHeight_navigationBar_statusBar:CGFloat = 0.0
     var isEnableSideBarView:Bool = false
     
-    var arrData = ["Dashboard", "Profile", "Overview","Events","About","Services","Contats"]
+    var arrData = ["Home", "Profile", "Overview","Events","About","Services","Contats"]
     var arrImages = [UIImage(named: "home")!,UIImage(named: "user1")!,UIImage(named: "heart1")!,UIImage(named: "bulb")!,UIImage(named: "home-icon-silhouette")!,UIImage(named: "user")!,UIImage(named: "heart")!,UIImage(named: "bulb")!]
     
     var swipeToRight = UISwipeGestureRecognizer()
@@ -90,6 +90,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
               }
         }
     }
+   
+    
     //l2
     
     
@@ -330,11 +332,22 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
             isEnableSideBarView = true
         }
     }
-
+    
+    func moveOnchaletlisting(index: Int){
+        guard let vc = storyboard?.instantiateViewController(identifier: "ChaletListingViewController") as?  ChaletListingViewController else{
+            return
+        }
+        vc.chaletlisting = chaletdata?.response?[index]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    func moveOnchaletDetails(tindex: Int, cindex: Int){
+        guard let vc = storyboard?.instantiateViewController(identifier: "ChaletdetailsViewController") as?  ChaletdetailsViewController else{
+            return
+        }
+        vc.chaletdetails = chaletdata?.response?[tindex].products?[cindex]
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
-
-
-
 
 extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
     
@@ -366,16 +379,20 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell") as? HomeTableViewCell else {
                 return UITableViewCell()
             }
-            cell.chalets = chaletdata?.response?[indexPath.row ]
+            cell.chalets = chaletdata?.response?[indexPath.row]
+            cell.index = indexPath.row
+            cell.onClickSeeAllClosure = { index in
+                if let indexp = index {
+                    self.moveOnchaletlisting(index: indexp)
+                }
+            }
+            cell.didSelectClosure = { tabIndex, colIndex in
+                if let tabIndexp = tabIndex, let colIndexp = colIndex{
+                    self.moveOnchaletDetails(tindex: tabIndexp, cindex: colIndexp)
+                }
+            }
             return cell
             
-            
-            
-           /* cell.name.text = product?.products?[indexPath.row].name
-            cell.productImage.image = UIImage(named: product?.products?[indexPath.row].imageName ?? "")
-            cell.price.text = product?.products?[indexPath.row].price
-            cell.productDescription.text = product?.products?[indexPath.row].description
-            */
         default:
             print("Some things Wrong!!")
         }
@@ -434,8 +451,7 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
             cell.contentView.backgroundColor = UIColor.white
             
         }
-            
-        }}
+            }}
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)as! SideBarTableViewCell
@@ -445,36 +461,6 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
     }
     
     //link3
-    //l2
-    
-    /*
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProductListingTableViewCell") as? ProductListingTableViewCell else {
-            return UITableViewCell()
-        }
-        cell.name.text = product?.products?[indexPath.row].name
-        cell.productImage.image = UIImage(named: product?.products?[indexPath.row].imageName ?? "")
-        cell.price.text = product?.products?[indexPath.row].price
-        cell.productDescription.text = product?.products?[indexPath.row].description
-        
-        return cell
+       
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ProductDetailsViewController") as? ProductDetailsViewController else {return}
-        vc.product = product?.products?[indexPath.row]
-        self.navigationController?.pushViewController(vc, animated: true)
-        
-        
-    }*/
-    
-    
-    //l2
-        
-        
-    }
-    
-    
-
+   
