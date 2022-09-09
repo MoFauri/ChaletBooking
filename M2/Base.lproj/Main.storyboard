@@ -72,7 +72,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vxi-Bq-Ist">
-                                <rect key="frame" x="40" y="84" width="334" height="368"/>
+                                <rect key="frame" x="40" y="128" width="334" height="368"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Htu-fH-ryO">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -151,7 +151,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JLA-Cl-0rp">
-                                <rect key="frame" x="40" y="84" width="334" height="228"/>
+                                <rect key="frame" x="40" y="128" width="334" height="228"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2D-UT-Zyx">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -705,9 +705,10 @@
         <!--Navigation Controller-->
         <scene sceneID="9uh-Xr-qzI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="4bi-UI-Hem" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4bi-UI-Hem" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jmR-4U-axN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -722,7 +723,6 @@
         <!--Navigation Controller-->
         <scene sceneID="8LR-cV-b7V">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W7l-dv-1aZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iWY-OV-kZ2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TLh-d3-k1m">
@@ -734,6 +734,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="O83-W2-7gJ"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7l-dv-1aZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1273.913043478261" y="68.973214285714278"/>
         </scene>

@@ -134,7 +134,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     //link3
     
     func loadViewFunctionality(){
-        var menuBtn = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .done, target: self, action: #selector(menuBtnClick))
+        let menuBtn = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .done, target: self, action: #selector(menuBtnClick))
         menuBtn.tintColor = UIColor(cgColor: CGColor(srgbRed: 25/255, green: 45/255, blue: 70/255, alpha: 1))
         self.navigationItem.leftBarButtonItem = menuBtn
     }
