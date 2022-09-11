@@ -19,6 +19,7 @@
 		05223D1128BE83BE008CD1E8 /* SideBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05223D1028BE83BE008CD1E8 /* SideBarTableViewCell.swift */; };
 		05223D1328BE840B008CD1E8 /* SideBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05223D1228BE840B008CD1E8 /* SideBarTableViewCell.xib */; };
 		05223D1628BEDEBF008CD1E8 /* ProfilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05223D1528BEDEBF008CD1E8 /* ProfilTableViewCell.swift */; };
+		053DF3AD28CE48AF00C849CC /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053DF3AC28CE48AF00C849CC /* RoundButton.swift */; };
 		054B452828C46658007BBA60 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B452728C46658007BBA60 /* HomeTableViewCell.swift */; };
 		054B452C28C46853007BBA60 /* ChaletJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 054B452B28C46853007BBA60 /* ChaletJSON.json */; };
 		054B452F28C468F4007BBA60 /* ChaletModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B452E28C468F4007BBA60 /* ChaletModels.swift */; };
@@ -52,6 +53,7 @@
 		05223D1028BE83BE008CD1E8 /* SideBarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewCell.swift; sourceTree = "<group>"; };
 		05223D1228BE840B008CD1E8 /* SideBarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideBarTableViewCell.xib; sourceTree = "<group>"; };
 		05223D1528BEDEBF008CD1E8 /* ProfilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilTableViewCell.swift; sourceTree = "<group>"; };
+		053DF3AC28CE48AF00C849CC /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		054B452728C46658007BBA60 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		054B452B28C46853007BBA60 /* ChaletJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ChaletJSON.json; path = M2/ChaletJSON.json; sourceTree = SOURCE_ROOT; };
 		054B452E28C468F4007BBA60 /* ChaletModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaletModels.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		0567A9D728BAE8F7004715BD /* H */ = {
 			isa = PBXGroup;
 			children = (
+				053DF3AC28CE48AF00C849CC /* RoundButton.swift */,
 				0567A9DA28BC12F4004715BD /* Constants.swift */,
 				0567A9D528BAE8D7004715BD /* Utilities.swift */,
 			);
@@ -354,6 +357,7 @@
 				0572FC8D28C701130026AB4B /* chaletlistTableViewCell.swift in Sources */,
 				0567A9D428BAB877004715BD /* SignUpViewController.swift in Sources */,
 				0574B38B28C7CF4600C3A970 /* ChaletdetailsViewController.swift in Sources */,
+				053DF3AD28CE48AF00C849CC /* RoundButton.swift in Sources */,
 				051A135028B917EF00C2571B /* AppDelegate.swift in Sources */,
 				0572FC8B28C6F7290026AB4B /* ChaletListingViewController.swift in Sources */,
 				054B452828C46658007BBA60 /* HomeTableViewCell.swift in Sources */,
